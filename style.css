@@ -1,9 +1,9 @@
 
 
 body{
-    background: #83a4d4;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #83a4d4;  
+background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4); 
+background: linear-gradient(to right, #b6fbff, #83a4d4);
 
     
 }   
@@ -72,6 +72,19 @@ a {
     color: #080808;
     text-decoration: none;
     background-color: transparent;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #83a4d4;
+    height: auto;
+    width: 100vw;
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
 }
    
    
